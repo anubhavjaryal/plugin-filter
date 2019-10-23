@@ -7,8 +7,5 @@
             "name": "Anubhav Jaryal",
             "email": "anubhav@isocietymanager.com"
         }
-    ],
-     "extra": {
-        "class": "ISM\\Filters"
-    }
+    ]
 }
