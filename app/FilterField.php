@@ -1,6 +1,6 @@
 <?php
 
-namespace ism\filters;
+namespace ism\Filter;
 
 class FilterField {
 	private $name;

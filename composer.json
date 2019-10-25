@@ -9,6 +9,10 @@
         }
     ],
     "autoload": {
-        "psr-4": {"ism\\filter\\": "app/"}
+        "psr-4": {
+            "ism\\Filter\\": "src/"}
+    },
+    "require": {
+		"php": ">=7.1"
     }
 }
