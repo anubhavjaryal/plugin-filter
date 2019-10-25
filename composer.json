@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "ism\\Filter\\": "src/"}
+            "Ism\\Filter\\": "src/"}
     },
     "require": {
 		"php": ">=7.1"

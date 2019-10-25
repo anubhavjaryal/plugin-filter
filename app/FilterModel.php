@@ -1,6 +1,6 @@
 <?php
 
-namespace ism\Filter;
+namespace Ism\Filter;
 
 interface FilterModel {
 	const PAGE_NO = 'page_no';
