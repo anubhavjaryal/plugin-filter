@@ -1,7 +1,7 @@
 {
     "name": "ism/filter",
     "description": "This package contains a pagination implementation on filtered data using Elquent Model",
-    "type": "library",
+    "type": "project",
     "authors": [
         {
             "name": "Anubhav Jaryal",
