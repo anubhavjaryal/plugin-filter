@@ -26,13 +26,17 @@ class FilterTable {
 			$this->setField ( $field );
 		}
 	}
-	private function setField(FilterField $field) {
-		$this->fields [] = $field;
-	}
 	public function filterGet($paginationParams=[], $orderBy= null, $select = null) {
 		$paginationParams = Util::getPaginationParams($paginationParams);
 		$query = $this->addFilterFields ();
 		return Util::getPaginationResult ( $query, $paginationParams [Util::PAGE_NO],$paginationParams [Util::PER_PAGE], $orderBy, true, $select );
+	}
+	public function filter($orderBy= null, $select = null) {
+		$query = $this->addFilterFields ();
+		return Util::getResult ( $query, $orderBy, $select );
+	}
+	private function setField(FilterField $field) {
+		$this->fields [] = $field;
 	}
 	private function addFilterFields() {
 		$query = $this->model;
